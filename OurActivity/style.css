@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Open+Sans:wght@300&display=swap');
+
 html,
 body {
   position: relative;
@@ -5,8 +7,6 @@ body {
 }
 
 body {
-  background: #eee;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 14px;
   color: #000;
   margin: 0;
@@ -18,11 +18,16 @@ body {
   height: 100%;
 }
 
+.text{
+  width: 80%;
+  padding-left: 10%;
+  }
+
 .swiper-slide {
   text-align: center;
   font-size: 18px;
   background: #fff;
-  border-radius: 10px;
+  border-radius: 5px;
 
   /* Center slide text vertically */
   display: -webkit-box;
@@ -44,14 +49,26 @@ body {
   width: 100%;
 
   object-fit: cover;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-}
-
-p{
-    font-size: 1rem;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 .card{
-    border-radius: 10px;
+    border-radius: 5px;
+}
+
+.card-body{
+  color: white;
+  background: linear-gradient(180deg, #182D66 0%, #030C23 100%);
+}
+
+.card-title{
+  font-family: 'Lexend Deca';
+  font-weight: 400;
+}
+
+.card-text{
+  font-family: 'Open Sans';
+  font-weight: 100;
+  font-size: 1rem;
 }
