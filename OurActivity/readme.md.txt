@@ -1,0 +1,1 @@
+pake swiper js kayak e ga perlu install npx dll deh soale pake cdn wkwk
