@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+}
+
+.footer {
+    background-color: #0A142F;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    padding: 50px 50px 40px 50px;
+}
+
+.con1 {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+@media (max-height:800px) {
+    footer {
+        position: static;
+    }
+}
+
+.footer .footer-left {
+    width: 20%;
+    margin-left: 120px;
+}
+
+.footer .footer-left .logo {
+    width: 32%;
+    vertical-align: middle;
+    margin-top: 32px;
+}
+
+.footer .footer-left h3{
+    color: #fff;
+    margin: 0;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    padding-top: 10px
+}
+
+.footer .footer-center {
+    width: 10%;
+}
+
+.footer .footer-center h5 {
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 32px;
+}
+
+.footer .footer-center li{
+    list-style: none;
+}
+
+.footer .footer-center {
+    width: 200px;
+}
+
+.footer .footer-center a{
+    font-size: 12.45px;
+    color: white;
+    text-decoration: none;
+    font-weight: 100;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footer .footer-right {
+    width: 650px;
+}
+
+.footer .footer-right .img-rounded{
+    width: 650px;
+    border-radius: 10px;
+    background: #555D72;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 27px;
+    height: 225px;
+}
+
+.footer .footer-right h5 {
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700 ;
+    margin-bottom: 10px;
+}
+
+.btn-secondary {
+    background-color: #192F6C !important;
+    width: 15% !important;
+}
+
+.footer .footer-bottom h3{
+    font-size: 12.45px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.footer .footer-bottom hr{
+    height: 1.5px;
+    color: #fff;
+    width: 75%;
+    margin: 0 auto;
+}
