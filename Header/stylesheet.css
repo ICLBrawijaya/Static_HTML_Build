@@ -60,14 +60,8 @@
 }
 
 .navbar .collapse .navbar-nav .nav-item.active .nav-link,
-.navbar .collapse .navbar-nav .nav-item:hover .nav-link
-{
+.navbar .collapse .navbar-nav .nav-item:hover .nav-link {
     color: #017CC2;
-}
-
-.navbar .collapse .navbar-nav .nav-item .dropdown-item .dropdown-menu a{
-    color: black;
-    font-weight: 700;
 }
 
 .containerHeadline{
@@ -81,4 +75,10 @@
     font-size: 48px;
     font-weight: normal;
     font-style: normal;
+}
+
+@media (max-width: 991px) {
+    .navbar {
+        background-color: #333333;
+    }
 }
