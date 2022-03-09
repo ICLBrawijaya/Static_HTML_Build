@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding-top: 60px;
+}
+
+.container .judul h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+.container .judul hr {
+    height: 2px;
+    color: #e96656;
+    width: 10%;
+    opacity: 100%;
+}
+
+.table th {
+    text-align: center;
+}
+
+.container h5 {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
