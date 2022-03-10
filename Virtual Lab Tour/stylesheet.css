@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Open+Sans&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* .containervirtuallabtour img{
+    position: relative;
+    width: 100%;
+    height: inherit;
+    object-fit: cover;
+    object-position: top;
+    background: 
+    linear-gradient(180deg, rgba(10,20,47,0) 0%, rgba(10, 20, 47, 0.85) 100%);
+   
+} */
+.container-fluid{
+    background: 
+    linear-gradient(180deg, rgba(10,20,47,0) 0%, rgba(10, 20, 47, 0.85) 100%),
+    url("../OurActivity/DSC00001.JPG") no-repeat 50% 10% / cover ;
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    padding-left: 0;
+    margin: 0;
+}
+.container-fluid h3{
+    color: white;
+    position: relative;
+    padding-left: 5%;
+    top: 80%;
+    font-size: 5vh;
+    line-height: 45px;
+    font-family: 'Lexend Deca';
+    font-weight: 800;
+    letter-spacing: 3px;
+    
+    
+}
+/* .coba{
+    height: 10000px;
+    background-color: black;
+    width: 100%;
+} */
+
+.background img{
+    position: absolute;
+    max-width: 20%;
+    margin: auto;
+}
+
