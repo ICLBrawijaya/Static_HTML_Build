@@ -1,2 +1,4 @@
-asist = Asisten.objects.filter(nim=nim)
-asist.delete()
+edit_asisten= Asisten.objects.get(nim=updatenim)
+edit_asisten[“nama”]= “Maemunah” 
+edit_asisten.save()
+
